@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/Favicon16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="images/Favicon32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="images/Favicon96x96.png" sizes="96x96">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/Faviconiphone.png" >
+  <title>the Dead Friends Society</title>
+  <script>
+    (function(w, d, t, h, s, n) {
+      w.FlodeskObject = n;
+      var fn = function() {
+        (w[n].q = w[n].q || []).push(arguments);
+      };
+      w[n] = w[n] || fn;
+      var f = d.getElementsByTagName(t)[0];
+      var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+      var sm = d.createElement(t);
+      sm.async = true;
+      sm.type = 'module';
+      sm.src = h + s + '.mjs' + v;
+      f.parentNode.insertBefore(sm, f);
+      var sn = d.createElement(t);
+      sn.async = true;
+      sn.noModule = true;
+      sn.src = h + s + '.js' + v;
+      f.parentNode.insertBefore(sn, f);
+    })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
+  </script>
+</head>
+<body>
+  <!-- <div class="row">
+    <h1>sign up for updates</h1>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <input type="submit" value="Subscribe">
+    </form>
+  </div> -->
+
+  <div id="fd-form-63d9b38eb4f015f30446e5eb" class="row"></div>
+<script>
+  window.fd('form', {
+    formId: '63d9b38eb4f015f30446e5eb',
+    containerEl: '#fd-form-63d9b38eb4f015f30446e5eb'
+  });
+</script>
+
+</body>
+</html>

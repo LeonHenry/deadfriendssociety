@@ -1,0 +1,60 @@
+/*full page bg*/
+html {
+  background: url(images/bg4.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  font-family: futura;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="email"] {
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.row {
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+div.ff-63d9b38eb4f015f30446e5eb__container  {
+  background: none !important;
+}
+
+div.ff-63d9b38eb4f015f30446e5eb_title {
+  color: white !important;
+}
